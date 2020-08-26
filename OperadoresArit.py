@@ -62,8 +62,23 @@ print("Operador lógico OR(ou)",(numeroX < 5 or numeroY > 20))
 print("Operador lógico de NEGAÇÃO(não)", (not(numeroX < 5 and numeroY < 10)))
 print("Operador relacional != (diferente):",(numeroX != numeroY))
 
-armazenaValorTeclado = int(input("Digite um valor:"))
-print("O valor digitado foi:",type(armazenaValorTeclado))
+#Usando input para ler dado de tipo String(str) do teclado
+armazenaValorTecladoString = int(input("Digite um valor:"))
+print("O valor digitado foi:",type(armazenaValorTecladoString))
+print("O valor digitado foi:",(armazenaValorTecladoString))
+
+#Usando input para ler dado de tipo Inteiro(int) do teclado
+armazenaValorTecladoInt = input("Digite um valor inteiro:")
+print("O valor digitado:",type(armazenaValorTecladoInt))
+print("O valor inteiro é:",(armazenaValorTecladoInt))
+
+#Usando input para ler dado de tipo Float do teclado
+armazenaValorTecladoFloat = input("Digite um valor real: (Ex: 2.50)")
+print("O tipo de dado:",type(armazenaValorTecladoFloat))
+print("O valor float é:",armazenaValorTecladoFloat)
+
+
+
 
 
 
